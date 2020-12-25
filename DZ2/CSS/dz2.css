@@ -1,0 +1,50 @@
+body { /*селектор тега*/
+    color: black;
+   font-size: 16px;
+   background: url("https://car-images.bauersecure.com/pagefiles/86907/vw_golf_gti_mk1_50.jpg");
+   background-size: 100% 100vh;
+   margin: 0;
+}
+div { /*селектор тега*/
+    background-color:yellow;
+    background-size: 100% 100vh;
+    width: 70%;
+    min-width: 500px;
+    min-height: 160px;
+    /*height: 120px;*/
+    margin: 10px auto;
+    padding: 20px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+h2 { /*селектор тега*/
+    margin-top: 0;
+    text-align: center;
+}
+
+.imgg { /*class*/
+    width: 300px;
+}
+.orange-button { /*class*/
+    background: orange;
+    color: white;
+}
+button { /*селектор тега*/
+    border: 1px solid gray;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+#submit-button { /*id*/
+    font-size: 1.5rem;
+}
+body h2 { /*пробельный*/
+    color: rgb(20, 18, 153);
+}
+body > h2 { /* > */
+    background-color: white;
+}
+#submit-button + a { /* + */
+    color: green;
+}
+

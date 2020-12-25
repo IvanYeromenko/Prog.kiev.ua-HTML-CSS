@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Custom-font";
+    src: url(../fontsrozetka/19847.otf);
+}
+html, body { 
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+   background-color: blanchedalmond;
+   font-family: Custom-font;
+   text-align: center;
+   height: 100%;
+}
+.container {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+.product-item {
+    text-align: center;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.product-item img {
+    max-width: 80%;
+    max-height: 200px;
+}
+.left-menu {
+    text-align: left;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: block;
+    word-break: break-word;
+}
+.container h3:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container .old-price {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.container .new-price {
+    color: red;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.best {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    text-align: left;
+    color: white;
+    background-color: rgb(0, 0, 70);
+    margin-top: 0%;
+    padding-left: 10px;
+}
+ul {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+}
+@media screen and (max-width: 1200px) { 
+    .container {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 780px) { 
+    .container {
+        width: 100%;
+    }
+}
+/*@media screen and (max-width: 480px) { 
+    .container {
+        width: 100%;
+    }
+}*/

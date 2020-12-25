@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Custom-font";
+    src: url(../fontsrozetka/19847.otf);
+}
+html, body { 
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+   background-color: blanchedalmond;
+   font-family: Custom-font;
+   text-align: center;
+   height: 100%;
+}
+.container {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+.product-item {
+    text-align: center;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.product-item img {
+    max-width: 80%;
+    max-height: 200px;
+}
+.left-menu {
+    text-align: left;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: block;
+    word-break: break-word;
+}
+.container h3:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container .old-price {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.container .new-price {
+    color: red;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.best {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    text-align: left;
+    color: white;
+    background-color: rgb(0, 0, 70);
+    margin-top: 0%;
+    padding-left: 10px;
+}
+ul {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+}
+@media screen and (max-width: 1200px) { 
+    .container {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 780px) { 
+    .container {
+        width: 100%;
+    }
+}
+footer {
+    background-color: tomato;
+    color: white;
+    height: 130px;
+
+}
+footer ul {
+    margin: 0;
+    list-style-type: none;
+}
+footer ul li {
+    margin-top: 40px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.facebook-icon {
+    background-image: url(../sprite/LR6bK.png);
+    background-position: -349px -400px;
+}
+.instagram-icon {
+    background-image: url(../sprite/LR6bK.png);
+    background-position: -991px -400px;
+}
+.twitter-icon {
+    background-image: url(../sprite/LR6bK.png);
+    background-position: -863px -400px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: tomato;
+}
+header div {
+    width: 50px;
+    height: 50px;
+    background: white;
+    color: black;
+    display: inline-block;
+    float: left;
+}
+footer a { /*прикрепляем ссылку к иконке, что бы при нажатии на нее был переход по ссылке*/
+    display: block;
+    height: 40px;
+}
+/*@media screen and (max-width: 480px) { 
+    .container {
+        width: 100%;
+    }
+}*/

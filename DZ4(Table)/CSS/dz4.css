@@ -1,0 +1,31 @@
+body {
+    font-size: 16px;
+    background: url("https://car-images.bauersecure.com/pagefiles/86907/vw_golf_gti_mk1_50.jpg");
+    background-size: 100% 100vh;
+    margin: 0;
+ }
+ div {
+     background-color:white;
+     background-size: 100% 100vh;
+     width: 70%;
+     min-width: 500px;
+     min-height: 160px;
+     /*height: 120px;*/
+     margin: 10px auto;
+     padding: 10px;
+
+     border: 1px solid black;
+     border-radius: 5px;
+ }
+ table {
+     text-align: center;
+     border-spacing: 0;
+     border-collapse: collapse;
+     margin: auto;
+ }
+ td {
+     border: 1px solid black;
+ }
+ thead {
+     background-color: wheat;
+ }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DZ5(Form)</title>
+    <link rel="stylesheet" href="./formcss/formcss.css">
+</head>
+<body>
+    <div>
+        <form action="/lol" method="post" id="login-form">
+            <h4>Форма регистрации</h4>
+            <input type="text" placeholder="Введите имя" name="username" required>
+            <input type="text" placeholder="Введите фамилию" name="usersurname" required>
+            <input type="password" placeholder="Введите пароль" name="password" required> <!-- required- обязательно для ввода, required minlength- обязательное мин кол символов -->
+            
+            <p>Your gender:</p>
+            <input type="radio" name="gender" id="gender-male" value="male"> <label for="gender-male">Male</label>
+            <input type="radio" name="gender" id="gender-female" value="female"> <label for="gender-female">Female</label>
+            <br><br>
+            <input type="checkbox" required id="policy-checkbox">
+            <label for="policy-checkbox">Я согласен с условиями пользовательского соглашения</label> <!-- галочка будет ставится при клике по надписи -->
+            <br><br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    font-size: 16px;
+    background-image: url(../images/s600.jpg);
+    background-size: 100% 100vh;
+}
+
+header, footer, main {
+    box-sizing: border-box;
+}
+
+@keyframes porsche-go {
+    5% {
+        left: 3%;
+        opacity: 1;
+    }
+    50% {
+        left: 75%;
+    }
+    80% {
+        left: 120%;
+        opacity: 1;
+    }
+    81% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#porsche {
+    position: fixed;
+    bottom: 50px;
+    left: -400px;
+    max-width: 400px;
+    animation-name: porsche-go;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}

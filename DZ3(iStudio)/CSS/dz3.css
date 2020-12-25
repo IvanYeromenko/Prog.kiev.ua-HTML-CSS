@@ -1,0 +1,99 @@
+html, body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url("https://img3.goodfon.ru/wallpaper/nbig/2/7f/apple-epl-brend-firma-iphone.jpg");
+}
+
+.store {
+    width: 80%;
+    margin: 10px auto;
+    background: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+#header {
+    color: white;
+    background: blue;
+    height: 80px;
+}
+
+#header h3 {
+    margin-top: 0;
+}
+
+
+.store > div {
+    background: white;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 20%;
+    margin: 0px;
+    min-width: 160px;
+    position: relative;
+}
+
+.store > div > h3:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.store > img {
+    width: 300px;
+}
+
+.store .image-block {
+    text-align: center;
+}
+
+.store .image-block img {
+    max-height: 150px;
+}
+
+.store > div .old-price {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.store > div .new-price {
+    color: red;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#goto-up {
+    display: block;
+    width: 70px;
+    height: 30px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    margin-right: -1px;
+    padding: 7px;
+    background: blue;
+    color: white;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-decoration: none;
+}
+
+#goto-up:hover, #goto-up:active, #goto-up:focus {
+    text-decoration: underline;
+    color: red;
+}
+
+.store .image-block .top {
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
